@@ -9,15 +9,23 @@
 <body>
     <h1>Rock Paper Scissors</h1>
 
-    <button onclick="myFunction()">button 1</button>
-    <button type="button">button 2</button>
-    <button type="button">button 3</button>
+    <button onclick="Rock()">Rock</button>
+    <button onclick="Paper()">Paper</button>
+    <button onclick="Scissors()">Scissors</button>
 
     <p id="demo"></p>
 
     <script>
-        function myFunction(){
-            document.getElementById("demo").innerHTML = "Hello World";
+        function Rock(){
+            document.getElementById("demo").innerHTML = "Rock";
+        }
+
+        function Paper(){
+            document.getElementById("demo").innerHTML = "Paper";
+        }
+
+        function Scissors(){
+            document.getElementById("demo").innerHTML = "Scissors";
         }
     </script>
 </body>
