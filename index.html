@@ -16,16 +16,19 @@
     <p id="demo"></p>
 
     <script>
+
+        var options = ["Rock", "Paper", "Scissors"];
+
         function Rock(){
-            document.getElementById("demo").innerHTML = Math.random();
+            document.getElementById("demo").innerHTML = options[Math.floor(Math.random() * options.length)];
         }
 
         function Paper(){
-            document.getElementById("demo").innerHTML = Math.random();
+            document.getElementById("demo").innerHTML = options[Math.floor(Math.random() * options.length)];
         }
 
         function Scissors(){
-            document.getElementById("demo").innerHTML = Math.random();
+            document.getElementById("demo").innerHTML = options[Math.floor(Math.random() * options.length)];
         }
     </script>
 </body>
