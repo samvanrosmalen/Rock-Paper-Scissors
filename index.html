@@ -13,22 +13,22 @@
     <button onclick="Paper()">Paper</button>
     <button onclick="Scissors()">Scissors</button>
 
-    <p id="demo"></p>
+    <p id="uitkomst"></p>
 
     <script>
 
         var options = ["Rock", "Paper", "Scissors"];
 
         function Rock(){
-            document.getElementById("demo").innerHTML = options[Math.floor(Math.random() * options.length)];
+            document.getElementById("uitkomst").innerHTML = options[Math.floor(Math.random() * options.length)];
         }
 
         function Paper(){
-            document.getElementById("demo").innerHTML = options[Math.floor(Math.random() * options.length)];
+            document.getElementById("uitkomst").innerHTML = options[Math.floor(Math.random() * options.length)];
         }
 
         function Scissors(){
-            document.getElementById("demo").innerHTML = options[Math.floor(Math.random() * options.length)];
+            document.getElementById("uitkomst").innerHTML = options[Math.floor(Math.random() * options.length)];
         }
     </script>
 </body>
