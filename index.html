@@ -9,8 +9,16 @@
 <body>
     <h1>Rock Paper Scissors</h1>
 
-    <button type="button">button 1</button>
+    <button onclick="myFunction()">button 1</button>
     <button type="button">button 2</button>
     <button type="button">button 3</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "Hello World";
+        }
+    </script>
 </body>
 </html>
